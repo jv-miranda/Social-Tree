@@ -9,3 +9,146 @@
 body {
     background: #141414;
 }
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 29px;
+}
+
+/* HEADER IMAGES */
+.background-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.background-image-01, .background-image-02 {
+    width: 164px;
+    height: 92px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border: #F3F3F3 solid 3px;
+    border-radius: 50%;
+    position: absolute;
+    top: 46px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* HEADER TEXT */
+h1 {
+    margin-top: 63px;
+    font-family: 'Patua One', cursive;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.amarelle-link, .rommanel-link {
+    display: flex;
+    width: 303px;
+    height: 59px;
+}
+
+.amarelle-link {
+    margin-bottom: 29px;
+}
+
+.icon-box {
+    width: 59px;
+    height: 59px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purse-icon, .necklace-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.text-box {
+    width: 246px;
+    height: 59px;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    padding-left: 16px;
+    padding-top: 11px;
+}
+
+#p1, #p3 {
+    font-family: 'Patua One', cursive;
+    color: #F3F3F3;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+#p2, #p4 {
+    font-family: 'Roboto', sans-serif;
+    color: #F3F3F3;
+    font-size: 9px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-logo {
+    width: 46px;
+    height: 46px;
+}
+
+/* ADDRESS */
+address {
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 59px;
+}
+
+.linkedin-link {
+    display: flex;
+    align-items: center;
+}
+
+.authors-image {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F3F3F3;
+    border-radius: 50%;
+}
+
+#credits {
+    font-family: 'Patua One', cursive;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 6px;
+}
