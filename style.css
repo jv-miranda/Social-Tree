@@ -47,6 +47,7 @@ h1 {
     color: #F3F3F3;
     font-size: 18px;
     font-weight: 200;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* NAV */
@@ -65,6 +66,7 @@ a {
     display: flex;
     width: 303px;
     height: 59px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .amarelle-link {
@@ -73,7 +75,7 @@ a {
 
 .icon-box {
     width: 59px;
-    height: 59px;
+    height: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -87,7 +89,7 @@ a {
 
 .text-box {
     width: 246px;
-    height: 59px;
+    height: 100%;
     background-color: #202020;
     display: flex;
     flex-direction: column;
@@ -151,4 +153,86 @@ address {
     font-size: 10px;
     font-weight: 200;
     margin-left: 6px;
+}
+
+/* MEDIA QUERY FOR TABLET AND DESKTOP */
+@media (min-width: 550px) {
+    
+    /* HEADER */
+    .background-image-01, .background-image-02 {
+        width: 246px;
+        height: 138px;
+    }
+
+    .profile-picture {
+        width: 139px;
+        height: 139px;
+        top: 69px;
+        border: 4.17px solid #F3F3F3;
+    }
+
+    h1 {
+        margin-top: 83px;
+        font-size: 23.7782px;
+        font-weight: 200;
+    }
+
+    /* NAV */
+    .amarelle-link, .rommanel-link {
+        width: 414.82px;
+        height: 80.77px;
+    }
+
+    .icon-box {
+        width: 80.47px;
+    }
+
+    .purse-icon, .necklace-icon {
+        width: 48.86px;
+        height: 49.04px;
+    }
+
+    .text-box {
+        width: 337.22px;
+    }
+
+    .text {
+        padding-left: 22.03px;
+        padding-top: 15.39px;
+    }
+
+    #p1, #p3 {
+        font-size: 22.9924px;
+        margin-bottom: 10.58px;
+    }
+
+    #p2, #p4 {
+        font-size: 12.3214px;
+    }
+
+    .amarelle-link {
+        margin-bottom: 38.23px;
+    }
+
+    /* FOOTER */
+    .instagram-logo {
+        width: 62.98px;
+        height: 62.98px;
+    }
+
+    /* ADDRESS */
+    address {
+        height: 94.4px;
+    }
+
+    .authors-image {
+        width: 48px;
+        height: 48px;
+        border: 1.6px solid #F3F3F3;
+    }
+
+    #credits {
+        font-size: 16.0819px;
+        margin-left: 9.6px;
+    }
 }
