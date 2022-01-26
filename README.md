@@ -9,7 +9,7 @@ This repository contains the project files for a Social Tree Page (A page with c
 ## This project was done with:
 
 * Figma for design
-* Semantic HTML for Structuring 
+* Semantic HTML for Structure 
 * CSS for Styling
 * Flexbox Properties for Layout
 * Media Queries for Responsiveness
